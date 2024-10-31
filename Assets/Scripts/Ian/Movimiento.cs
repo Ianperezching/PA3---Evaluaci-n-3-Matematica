@@ -1,18 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class Movimiento : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float speed = 10f;
+    private Rigidbody2D rb; 
+
+    private Vector2 movementInput;
+
+    void Awake()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+   
+    public void OnMove(InputAction.CallbackContext context)
+    {
+        movementInput = context.ReadValue<Vector2>();
+    }
+
+    void FixedUpdate()
     {
         
+        Vector2 force = movementInput * speed;
+        rb.AddForce(force);
     }
 }
