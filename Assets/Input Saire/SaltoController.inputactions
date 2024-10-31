@@ -38,17 +38,6 @@
                 },
                 {
                     "name": "",
-                    "id": "e92c7230-96db-44e5-b1b0-853753530103",
-                    "path": "<Keyboard>/w",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Computer",
-                    "action": "Salto",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "1942f28a-9b39-43b3-b039-24d5790b0373",
                     "path": "",
                     "interactions": "",
@@ -72,7 +61,7 @@
                 {
                     "name": "left",
                     "id": "7ecf1c1f-292f-4943-b87d-258790227bb3",
-                    "path": "<Keyboard>/leftArrow",
+                    "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -83,7 +72,7 @@
                 {
                     "name": "right",
                     "id": "4a5aa4f8-8242-47d5-a1dc-5ef63809f9c3",
-                    "path": "<Keyboard>/rightArrow",
+                    "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

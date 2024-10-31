@@ -18,7 +18,7 @@ public class Salto : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (Physics2D.Raycast(transform.position, Vector3.down, 1.03f, layerMask))
+        if (Physics2D.Raycast(transform.position, Vector3.down, 0.6f, layerMask))
         {
             if (jump)
             {
