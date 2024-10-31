@@ -382,7 +382,7 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 8
-  forjump: 2
+  forjump: 4
 --- !u!50 &694347870
 Rigidbody2D:
   serializedVersion: 4
